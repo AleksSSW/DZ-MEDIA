@@ -6,9 +6,7 @@
 }
 .p{
     display: flex;
-    padding: 40px;
-    max-width: 60px;
-    max-height: 60px;
+    text-align: left;
 }
 .img {
     width: 100%;
@@ -20,11 +18,15 @@
     
 }
 .pictures{
-    display: inline-flex;
+    display: flex;
     flex-direction: row;
     background-position: center;
     position:relative;
-    margin: 40px;
+    object-fit: none;
+    padding: 40px 40px;
+    height: 200px;
+    width: 400px;
+    margin: 10px;
     }
 .cat{
     display: flex;
@@ -36,8 +38,9 @@
     padding-right:  40px;
 }
 .tng{
-    
     display: flex;
+    max-width: 300px;
+    max-height: 300px;
     padding-left: 40px;
     background-repeat: no-repeat;
     background-position: center;
