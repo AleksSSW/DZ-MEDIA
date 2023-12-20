@@ -28,11 +28,15 @@
     }
 .cat{
     display: flex;
+    width: 100%;
+    max-width: 300px;
+    max-height: 300px;
     background-repeat: no-repeat;
     background-position: center;
     padding-right:  40px;
 }
 .tng{
+    
     display: flex;
     padding-left: 40px;
     background-repeat: no-repeat;
