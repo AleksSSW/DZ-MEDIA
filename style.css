@@ -7,6 +7,16 @@
 .p{
     display: flex;
     text-align: left;
+
+}
+.description {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-size: medium;
+    background-color: lightblue;
+
+
 }
 .img {
     width: 100%;
@@ -44,4 +54,12 @@
     padding-left: 40px;
     background-repeat: no-repeat;
     background-position: center;
+}
+@media screen and (max-width: 800px) {
+    .body {
+        width: 100%;
+    }
+    .pictures {
+        display: flex;
+    }
 }
