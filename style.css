@@ -1,0 +1,40 @@
+.body {
+    margin:0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+}
+.p{
+    display: flex;
+    padding: 40px;
+    max-width: 60px;
+    max-height: 60px;
+}
+.img {
+    width: 100%;
+    max-width: 40px;
+    max-height: 40px;
+    padding: 40px;
+    object-fit: cover;
+    background-size: cover;
+    
+}
+.pictures{
+    display: inline-flex;
+    flex-direction: row;
+    background-position: center;
+    position:relative;
+    margin: 40px;
+    }
+.cat{
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-right:  40px;
+}
+.tng{
+    display: flex;
+    padding-left: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
